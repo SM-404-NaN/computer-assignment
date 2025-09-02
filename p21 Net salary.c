@@ -11,8 +11,7 @@ int main()
     d= 0.03*g;
     n= g +a - d;
     
-    printf("The net salary is 
-%.2f+ %.2f(allowances)- %.2f(deductions)=%.2f ",g,a,d,n);
+    printf("The net salary is %.2f + %.2f (allowances) - %.2f (deductions) = %.2f ",g,a,d,n);
    
     return 0;
     
@@ -22,4 +21,5 @@ output
 
 Enter the gross salary:  8000
 The net salary is 8000.00+ 800.00(allowances)- 240.00(deductions)=8560.00 
+
 */
